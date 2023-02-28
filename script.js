@@ -1,6 +1,12 @@
 function asd () {
     
-     document.getElementById('asd').innerHTML = "bi sus la"
+     if (document.getElementById('asd').innerHTML){
+        document.getElementById('asd').innerHTML = ""
+     }else{
+        document.getElementById('asd').innerHTML = "bi sus la"
+
+
+     }
 
 
 }
